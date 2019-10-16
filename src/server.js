@@ -8,7 +8,7 @@ const http = require('http')
 
 const app = express();
 const server = http.Server(app);
-const io = socketio(server);
+const io = socketio(server); 
 
 
 const port = 'PORTA_DE_COMUNICAÇÃO_SEM_ASPAS_PADRÃO_3333';
