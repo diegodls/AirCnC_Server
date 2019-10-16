@@ -13,9 +13,8 @@ const io = socketio(server);
 
 const port = 'PORTA_DE_COMUNICAÇÃO_SEM_ASPAS_PADRÃO_3333';
 const urlDB = 'SUA_URL_DO_MONGODB_AQUI';
-
-
 //IMPORTANTE = se der erro o erro "cannot do raw queries on admin in atlas", troque o "/admin?" na url pelo nome do usuário.
+//IMPORTANTE = evite de utilizar o localhost caso esteja usando um aparelho fisico para testar o aplicativo mobile, nesse caso, utilize o IP da maquina usada como servidor
 mongoose.connect(urlDB, {
     useNewUrlParser: true, //tirar os avisos do nodemon
     useUnifiedTopology: true, //tirar os avisos do nodemon
