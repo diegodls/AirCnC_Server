@@ -1,6 +1,6 @@
 # AirCnC_server
 Servidor para o sistema AirCnC(veja mais sobre nos aplicativos).\
-![imagem exemplo](https://user-images.githubusercontent.com/41457134/66946637-bbffb900-f027-11e9-9f6d-729a33135ccf.png)\
+![imagem exemplo](https://user-images.githubusercontent.com/41457134/66946637-bbffb900-f027-11e9-9f6d-729a33135ccf.png)
 
 # Desenvolvimento
 Este servidor foi desenvolvido utilizando NodeJS utilizando as dependências abaixo.\
